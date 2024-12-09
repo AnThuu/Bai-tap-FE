@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <form action="" method="post" enctype="multipart/form-data">
+      <table>
+        <h3>To Do List</h3>
+
+        <tr>
+          <th align="left"><label for="item">Item</label></th>
+        </tr>
+
+        <tr>
+          <td><input size="50" type="text" name="item" id="item" /></td>
+        </tr>
+
+        <tr>
+          <th align="left"><label for="chitiet">Description</label></th>
+        </tr>
+
+        <tr>
+          <td><textarea name="Description" id="Description"  cols="50" rows="5"></textarea></td>
+        </tr>
+        <tr>
+            <th align="left"><label for="Priority">Priority</label></th>
+            
+             <th><label for="Category">Category</label></th>
+        </tr>
+        <tr>
+            <td >
+                <select  name="pr" id="Priority">
+                    <option value="">Low</option>
+                    <option value="">Hight</option>
+                </select>
+                
+            </td>
+            <td>
+                <select name="cate" id="Category">
+                    <option value="">Public</option>
+                    <option value="">Personal</option>
+                </select>
+            </td>
+
+        </tr>
+        <tr>
+            <th align="left">Due Date</th>
+
+        </tr>
+        <tr>
+            <td> <input type="date" ></td>
+        </tr>
+        <tr>
+            <th align="left">Status</th>
+        </tr>
+        <tr>
+           <td>
+               <input type="checkbox" name="Done" id="bd" />
+                  <label for="bd">Done</label>
+           </td>
+        </tr>
+        <tr>
+           <td> <input type="submit" name="submit" id="submit" value="Submit"></td>
+        </tr>
+
+      </table>
+    </form>
+  </body>
+</html>
